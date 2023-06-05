@@ -7,11 +7,11 @@ function handleMenu() {
   btnMobile.ariaExpanded = active;
   if(active) {
     btnMobile.ariaLabel = "Fechar Menu";
-    btnMobile.style.background = "url(../img/icons/menu-close.svg) no-repeat";
+    btnMobile.style.background = "url(./img/icons/menu-close.svg) no-repeat";
     btnMobile.style.transition = "0.3s";
   } else {
     btnMobile.ariaLabel = "Abrir Menu";
-    btnMobile.style.background = "url(../img/icons/menu-open.svg) no-repeat";
+    btnMobile.style.background = "url(./img/icons/menu-open.svg) no-repeat";
     btnMobile.style.transition = "0.3s";
   }
 }
