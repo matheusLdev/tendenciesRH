@@ -318,7 +318,7 @@ footer p {
 }
 
 @media(max-width: 600px) {
-  div#talk-menu{
+  div#talk-menu, ul#social-network{
     justify-content: center;
   }
   
