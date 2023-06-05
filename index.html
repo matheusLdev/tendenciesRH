@@ -6,34 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/icons/favicon.svg" type="image/x-icon">
+
     <title>Tendencies RH - Desenvolvendo novos talentos</title>
   </head>
   <body>
-    <header>
-      <div>
+    <div id="container-talk">
+      <div id="talk-menu">
+        <ul id="social-network">
+          <li>
+            <a href="https://www.linkedin.com/company/tendencies-recursos-humanos/" target="_blank">
+              <img src="img/icons/linkedin-pink.svg" alt="linkedin">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/icons/instagram-pink.svg" alt="instagram">
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/+5531993504681" target="_blank">
+              <img src="img/icons/whatsapp-pink.svg" alt="whatsapp">
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@tendenciesrh" target="_blank">
+              <img src="img/icons/youtube-pink.svg" alt="youtube">
+            </a>
+          </li>
+        </ul>
+    
+        <ul id="contact-header" class="text">
+          <li>
+            <a href="tel:+31993504681">
+              <img src="img/icons/smartphone-pink.svg" alt="celular">
+              <p>(31) 99350-4681</p>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:tendenciesrh@gmail.com">
+              <img src="img/icons/email-pink.svg" alt="email">
+              <p>tendenciesrh@gmail.com</p>
+            </a>
+          </li>
+        </ul>
       </div>
+    </div>
+    <header>
       <nav>
         <div id="logo">
-          <a href="">
-            <img src="img/logo-tendencies.svg" alt="Logo Tendencies">
+          <a href="#">
             <h1>Tendencies RH</h1>
+            <img src="img/logo-tendencies.png" alt="Logo Tendencies" width="200px">
           </a>
         </div>
-        <ul>
+
+        <button aria-label="Abrir Menu" id="menu-mobile" aria-haspopup="true" aria-controls="menu-header" aria-expanded="false">
+        </button>
+
+        <ul id="menu-header" class="text" role="menu">
           <li>
-            <a href="">Sobre a Empresa</a> 
+            <a href="#about">Sobre a Empresa</a>
           </li>
           <li>
-            <a href="">Quem somos</a> 
+            <a href="#services">Nossos Serviços</a> 
           </li>
           <li>
-            <a href="">Parceiros</a> 
+            <a href="#who-we-are">Quem somos</a> 
           </li>
           <li>
-            <a href="">Depoimentos</a> 
+            <a href="#partners">Parceiros</a> 
           </li>
           <li>
-            <a href="">Contato</a> 
+            <a href="#feedback">Depoimentos</a> 
+          </li>
+          <li>
+            <a href="#contact">Contatos</a> 
           </li>
         </ul>
       </nav>
@@ -41,26 +89,279 @@
 
     <section id="home" class="box">
       <div>
-        <h1>Consultoria de Recursos Humanos com foco no desenvolvimento humano e profissional.</h1>
+        <h2>
+          Consultoria de Recursos Humanos com foco no desenvolvimento humano e profissional.
+        </h2>
       </div>
     </section>
+
     <section id="about" class="box">
-      <h1>Sobre a Empresa</h1>
-      <article>
-        <p>
-          A <strong>Tendencies RH</strong> é uma consultoria de desenvolvimento humano que oferece serviços de Mentoria e Consultoria de Carreira, Recrutamento e Seleção especializado na área de Tecnologia e em outras áreas, Jobhunter e Outplacement.
-        </p>
-        <p>
-          Nosso compromisso é atender nossos assessorados identificando talentos humanos, facilitando seu processo de recolocação no mercado, transição de carreira e desenvolvimento profissional.
-        </p>
-        <p>
-          Com o intuito de suprir qualquer necessidade dos nossos clientes, recrutamos as mais diversas categorias profissionais dentro da Tecnologia e em outras áreas.
-        </p>
-        <p>
-          Buscamos a excelência no nosso trabalho, investindo em inovação, transparência, foco em resultados e acima de tudo qualidade em nossos serviços.
-        </p>
+      <div class="container">
+        <h2>Sobre a Empresa</h2>
+        <article>
+          <p>
+            A <strong>Tendencies RH</strong> é uma consultoria de desenvolvimento humano que oferece serviços de Mentoria e Consultoria de Carreira, Recrutamento e Seleção especializado na área de Tecnologia e em outras áreas, Jobhunter e Outplacement.
+          </p>
+          <p>
+            Nosso compromisso é atender nossos assessorados identificando talentos humanos, facilitando seu processo de recolocação no mercado, transição de carreira e desenvolvimento profissional.
+          </p>
+          <p>
+            Com o intuito de suprir qualquer necessidade dos nossos clientes, recrutamos as mais diversas categorias profissionais dentro da Tecnologia e em outras áreas.
+          </p>
+          <p>
+            Buscamos a excelência no nosso trabalho, investindo em inovação, transparência, foco em resultados e acima de tudo qualidade em nossos serviços.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="box">
+      <article class="container">
+        <h2>Nossos Serviços para sua Empresa</h2>
+          <div class="container-services">
+            <h3>Recrutamento e Seleção</h3>
+            <img src="img/decorador.svg" alt="decorador">
+            <p>
+              Nossa equipe conta com 3 recrutadoras especializadas na área de tecnologia e em outras áreas e está preparada para desenvolver um processo de Recrutamento e Seleção personalizado para sua empresa, levando em conta suas necessidades e objetivos específicos. Além disso, garantimos total transparência durante todo o processo, respeitando a necessidade do nosso cliente. Agregando experiência, planejamento, criatividade e amor por mudar vidas, o resultado é um serviço eficiente e inovador. 
+            </p>
+            <p><strong>Nossa Solução:</strong></p>
+            <ul>
+              <li>
+                - Qualidade nos perfis enviados a empresa;
+              </li>
+              <li>
+                - Diminuição do turnover das empresas com perfis responsáveis e aderentes a posição; 
+              </li>
+              <li>
+                - Realização do processo do início ao fim trazendo uma boa experiência ao candidato e a empresa contratante;   
+              </li>
+              <li>
+                - Melhor preço de mercado;   
+              </li>
+              <li>
+                - Trabalhamos a 1ª posição no sucesso, sem exclusividade.
+              </li>
+            </ul>
+          </div>
+          <div class="container-services">
+            <h3>Entrevista de desligamento humanizada</h3>
+            <img src="img/decorador.svg" alt="decorador">
+            <p>
+              A entrevista de desligamento é importante por várias razões.
+            </p>
+            <p>
+              Ela pode fornecer informações valiosas sobre a empresa e a gestão que podem ajudar a melhorar o ambiente de trabalho para os funcionários que permanecem na empresa. Se vários funcionários estão saindo por um motivo específico, por exemplo, isso pode ser um sinal de um problema que precisa ser abordado.
+            </p>
+            <p>
+              A entrevista de desligamento pode ajudar a empresa a entender melhor as expectativas dos funcionários e o que eles valorizam em um emprego. Isso pode ser usado para melhorar a retenção de funcionários e atrair talentos no futuro.
+            </p>
+            <p><strong>Nossa Solução:</strong></p>
+            <ul>
+              <li>
+                - Acesso a feedbacks completos e sinceros por parte do colaborador desligado. Isso porque quando ele ainda é funcionário, pode ter receio em compartilhar sua opinião;
+              </li>
+              <li>
+                - Retorno referente ao desempenho da pessoa, destacando seus aspectos positivos e negativos;
+              </li>
+              <li>
+                - Melhora da imagem da empresa, visto que ela demonstra um cuidado e amparo com o profissional que está sendo desligado;
+              </li>
+              <li>
+                - Acolhimento ao ex colaborador fazendo com que ele perceba que, de fato, a organização se preocupa com ele e poderá indicá-lo a outros profissionais que estejam procurando emprego;
+              </li>
+              <li>
+                - Valorização aos que continuam trabalhando para a empresa, pois eles se sentirão mais tranquilos ao verem como ela trata seus colaboradores demitidos, melhorando seu engajamento e reduzindo a rotatividade de pessoas dentro da empresa.
+              </li>
+            </ul>
+          </div>
+          <div class="container-services">
+            <h3>Outplacement</h3>
+            <img src="img/decorador.svg" alt="decorador">
+            <p>
+              Esse serviço tem por finalidade instruir e capacitar os colaboradores que foram demitidos da empresa para que possam ser realocados profissionalmente no mercado de trabalho.
+            </p>
+            <p><strong>Como esse processo funciona ?</strong></p>
+            <p>
+              O profissional assessorado, é orientado e acompanhado para um adequado retorno ao mercado de trabalho, explorando as potencialidades da sua carreira. É realizado uma mentoria de carreira com esse profissional que vai desde o mapeamento de perfil até sua recolocação no mercado de trabalho.
+            </p>
+            <p>
+              Ao receber esse suporte, o assessorado passa a lidar melhor com as emoções negativas e redirecioná-las para a sua campanha de prospecção, em busca de novas oportunidades no mercado ou mesmo uma mudança de carreira.
+            </p>
+            <p>
+              Outplacement é um processo que visa ajudar funcionários que foram demitidos a encontrar novas oportunidades de emprego, ao mesmo tempo em que ajuda as empresas a cuidar da imagem da marca empregadora e garantir que os demitidos saiam da empresa com uma experiência positiva, além de melhorar o clima entre os colaboradores remanescentes e reduzir os riscos com processos trabalhistas.
+            </p>
+          </div>
+          <div class="container-services">
+            <h3>Palestras</h3>
+            <img src="img/decorador.svg" alt="decorador">
+            <p>
+              Palestras voltadas ao desenvolvimento de carreira com foco em transição e recolocação profissional.
+            </p>
+          </div>
+      </article>
+      <article class="container">
+        <h2>Nossos Serviços para Você</h2>
+        <div class="container-services">
+          <h3>Mentoria individual ou em grupo</h3>
+          <img src="img/decorador.svg" alt="decorador">
+          <p>
+            O profissional assessorado, orientado e acompanhado para um adequado retorno ao mercado de trabalho, explorando as potencialidades da sua carreira. A mentoria é dividida em sessões que são realizadas através do Google Meet ou Zoom.
+          </p>
+          <p>
+            Dentro da mentoria trabalhamos com reformulação de currículo e LinkedIn, deixando o perfil mais assertivo e estratégico, preparamos o nosso assessorado para as entrevistas e damos todo o suporte no processo de desenvolvimento de carreira até sua recolocação.
+          </p>
+        </div>
+        <div id="services-you">
+          <div>
+            <h3>Consultoria</h3>
+            <img src="img/decorador.svg" alt="decorador">
+            <ul>
+              <li>- Reformulação LinkedIn</li>
+              <li>- Reformulação Currículo</li>
+              <li>- Preparação para Entrevistas</li>
+              <li>- Análise de vagas e perfil da Empresa</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Jobhunter</h3>
+            <img src="img/decorador.svg" alt="decorador">
+            <ul>
+              <li>- Suporte no envio de vagas</li>
+              <li>- Auxílio no estudo das vagas</li>
+            </ul>
+          </div>  
+        </div>
+      </article>
+      <a href="https://wa.me/+5531993504681" target="_blank">
+        Contratar agora
+      </a>
+    </section>
+
+    <section id="who-we-are" class="box">
+      <article class="container">
+        <h2>Quem Somos ?</h2>
+        <div class="container-content">
+          <div class="card">
+            <img src="img/fernanda.png" alt="Fernanda Santos">
+            <h3>Fernanda Santos</h3>
+            <img class="decorator" src="img/decorador.svg" alt="decorador">
+            <p>
+              Profissional com mais de 10 anos de experiência em Recursos Humanos. Graduada em Tecnologia de Recursos Humanos com domínio de todos os subsistemas de RH. Tech Recruiter, Consultora e mentora de carreira, com foco no desenvolvimento humano.
+            </p>
+          </div>
+          <div class="card">
+            <img src="img/ester.png" alt="Ester Mangueira">
+            <h3>Ester Mangueira</h3>
+            <img class="decorator" src="img/decorador.svg" alt="decorador">
+            <p>
+              Profissional com mais de 5 anos na área de Recursos Humanos. Formada em Gestão de Recursos humanos, com domínio de todos os subsistemas de RH. Tech Recruiter, Mentora e Consultora de carreiras com foco no desenvolvimento humano.
+            </p>
+          </div>
+          <div class="card">
+            <img src="img/fabiana.png" alt="Fabiana Braga">
+            <h3>Fabiana Braga</h3>
+            <img class="decorator" src="img/decorador.svg" alt="decorador">
+            <p>
+              Profissional com mais de 10 anos de experiência em Recursos Humanos. Graduada em Gestão de Recursos Humanos, Pós-Graduada em Gestão de Pessoas com domínio de todos os subsistemas de RH. Tech Recruiter, Consultora e mentora de carreira, com foco no desenvolvimento humano.
+            </p>
+          </div>
+        </div>
       </article>
     </section>
 
+    <section id="partners" class="box">
+      <article class="container">
+        <h2>Nossos Parceiros</h2>
+        <div class="container-content">
+          <img src="img/partners-feedback/vai-web.jpg" alt="Vai na Web">
+          <img src="img/partners-feedback/one-bit-code.jpg" alt="One Bit Code">
+          <img src="img/partners-feedback/escola-nuvem.jpg" alt="Escola da Nuvem">
+          <img src="img/partners-feedback/contadores-digitais.png" alt="Contadores Digitais">
+        </div>
+      </article>
+    </section>
+
+    <section id="feedback" class="box">
+      <article class="container">
+        <h2>Depoimentos</h2>
+        <div class="container-content"> 
+          <div class="size-photo">
+            <img src="img/partners-feedback/feed1.png" alt="feedback">
+            <img src="img/partners-feedback/feed7.png" alt="feedback">     
+          </div>
+          <div class="size-photo">
+            <img src="img/partners-feedback/feed6.png" alt="feedback">
+            <img src="img/partners-feedback/feed4.png" alt="feedback">
+          </div class="size-photo">   
+          <div id="feed1">
+            <img src="img/partners-feedback/feed5.png" alt="feedback">
+            <div class="size-photo">
+              <img src="img/partners-feedback/feed2.png" alt="feedback">
+              <img src="img/partners-feedback/feed3.png" alt="feedback">
+            </div>
+          </div>          
+        </div>
+      </article>
+    </section>
+
+    <section id="contact" class="box">
+      <div class="container">
+        <h2>Contatos</h2>
+        <article>
+          <ul class="text">
+            <li>
+              <a href="https://www.google.com/maps/place/Sete+Lagoas,+MG/@-19.4557125,-44.3102766,12z/data=!3m1!4b1!4m6!3m5!1s0xa65aa48d5ab029:0x3158b7984cbbf15f!8m2!3d-19.4646696!4d-44.2452527!16zL20vMDRrNXJw?entry=ttu" target="_blank">
+                <img src="img/icons/map-black.svg" alt="celular">
+                <p>Sete Lagoas, MG</p>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+31993504681">
+                <img src="img/icons/smartphone-black.svg" alt="celular">
+                <p>(31) 99350-4681</p>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:tendenciesrh@gmail.com">
+                <img src="img/icons/email-black.svg" alt="email">
+                <p>tendenciesrh@gmail.com</p>
+              </a>
+            </li>
+          </ul>
+        </article>
+        <article>
+          <ul id="container-social-media">
+            <li>
+              <a href="https://www.linkedin.com/company/tendencies-recursos-humanos/" target="_blank">
+                <img src="img/icons/linkedin-black.svg" alt="linkedin">
+              </a>
+            </li>
+            <li>
+              <a href="#contact">
+                <img src="img/icons/instagram-black.svg" alt="instagram">
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/+5531993504681" target="_blank">
+                <img src="img/icons/whatsapp-black.svg" alt="whatsapp">
+              </a>
+            </li>
+            <a href="https://www.youtube.com/@tendenciesrh" target="_blank">
+              <img src="img/icons/youtube-black.svg" alt="youtube">
+            </a>
+          </ul>
+        </article>
+      </div>
+      
+    </section>
+    
+    <footer>
+      <a href="#">
+        <img src="img/logo-tendencies.png" alt="Logo Tendencies" width="200px">
+      </a>
+      <p class="text">Todos os direitos reservados</p>
+    </footer>
+
+    <script src="js/mobile-header.js"></script>
   </body>
 </html>
