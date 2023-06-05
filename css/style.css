@@ -356,8 +356,8 @@ footer p {
     border-bottom: 1px solid #d900bc;
   }
 
-  ul#menu-header.active li a:hover {
-    background: none
+  ul#menu-header li a:hover {
+    background: none;
   }
 
   #home h2 {
