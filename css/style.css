@@ -61,6 +61,7 @@ header {
   position: absolute;
   width: 100%;
   background: linear-gradient(#000623 95%,#d900bc 1%);
+  padding: 4px 0;
   z-index: 1;
 }
 
@@ -346,7 +347,7 @@ footer p {
   }
 
   ul#menu-header.active {
-    height: 35.5vh;
+    height: 271px;
     visibility: visible;
   }
 
@@ -371,9 +372,11 @@ footer p {
   }
 
   #partners img {
-    height: 120px;
+    height: 116px;
   }
-
+  section#partners img:nth-child(3) {
+    padding-left: 20px;
+  }
   section#feedback .size-photo img {
     width: 400px;
   } 
