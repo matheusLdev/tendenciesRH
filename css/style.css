@@ -100,16 +100,11 @@ ul#menu-header {
   align-items: end;
 }
 
-ul { 
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-}
-
 ul#menu-header li {
   display: flex;
   align-items: end;
   margin-left: 20px;
-  margin-bottom: 4px;
+  padding-bottom: 4px;
 }
 
 ul#menu-header li a:hover {
@@ -344,7 +339,7 @@ footer p {
     height: 0;
     display: block;
     position: absolute;
-    top: 88px;
+    top: 85px;
     left: 0;
     transition: 0.3s;
     visibility: hidden;
@@ -352,7 +347,7 @@ footer p {
   }
 
   ul#menu-header.active {
-    height: 271px;
+    height: 295px;
     visibility: visible;
   }
 
